@@ -77,13 +77,13 @@ if __name__ == "__main__":
     print("\nTesting memoized_fibonacci...")
     print("First call")
     start = time.perf_counter()
-    print(f"{memoized_fibonacci(20)}")
+    print(f"{memoized_fibonacci(30)}")
     end = time.perf_counter()
     print(f"Time = {end - start:.8f} seconds")
 
     print("Second call")
     start = time.perf_counter()
-    print(f"{memoized_fibonacci(20)}")
+    print(f"{memoized_fibonacci(30)}")
     end = time.perf_counter()
     print(f"Time = {end - start:.8f} seconds")
 
